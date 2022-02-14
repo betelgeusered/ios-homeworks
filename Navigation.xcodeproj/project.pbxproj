@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52531AF127B9CE7D009E3E91 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52531AF027B9CE7D009E3E91 /* ProfileView.xib */; };
+		52531AF427B9D067009E3E91 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52531AF327B9D067009E3E91 /* ProfileView.swift */; };
+		52531AF727B9D1A8009E3E91 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52531AF627B9D1A8009E3E91 /* Profile.storyboard */; };
+		52531AFA27B9D1F4009E3E91 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52531AF927B9D1F4009E3E91 /* ProfileViewController.swift */; };
 		52EBDEED27B0AAD600E415D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBDEEC27B0AAD600E415D7 /* AppDelegate.swift */; };
 		52EBDEEF27B0AAD600E415D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBDEEE27B0AAD600E415D7 /* SceneDelegate.swift */; };
 		52EBDEF127B0AAD600E415D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBDEF027B0AAD600E415D7 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52531AF027B9CE7D009E3E91 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		52531AF327B9D067009E3E91 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		52531AF627B9D1A8009E3E91 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		52531AF927B9D1F4009E3E91 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		52EBDEE927B0AAD600E415D7 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EBDEEC27B0AAD600E415D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52EBDEEE27B0AAD600E415D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +71,10 @@
 				52EBDEF527B0AAE900E415D7 /* Assets.xcassets */,
 				52EBDEF727B0AAE900E415D7 /* LaunchScreen.storyboard */,
 				52EBDEFA27B0AAE900E415D7 /* Info.plist */,
+				52531AF027B9CE7D009E3E91 /* ProfileView.xib */,
+				52531AF327B9D067009E3E91 /* ProfileView.swift */,
+				52531AF627B9D1A8009E3E91 /* Profile.storyboard */,
+				52531AF927B9D1F4009E3E91 /* ProfileViewController.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -124,7 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52531AF127B9CE7D009E3E91 /* ProfileView.xib in Resources */,
 				52EBDEF927B0AAE900E415D7 /* LaunchScreen.storyboard in Resources */,
+				52531AF727B9D1A8009E3E91 /* Profile.storyboard in Resources */,
 				52EBDEF627B0AAE900E415D7 /* Assets.xcassets in Resources */,
 				52EBDEF427B0AAD600E415D7 /* Main.storyboard in Resources */,
 			);
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52531AF427B9D067009E3E91 /* ProfileView.swift in Sources */,
 				52EBDEF127B0AAD600E415D7 /* ViewController.swift in Sources */,
+				52531AFA27B9D1F4009E3E91 /* ProfileViewController.swift in Sources */,
 				52EBDEED27B0AAD600E415D7 /* AppDelegate.swift in Sources */,
 				52EBDEEF27B0AAD600E415D7 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47SCM4MR5Z;
 				INFOPLIST_FILE = Navigation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47SCM4MR5Z;
 				INFOPLIST_FILE = Navigation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
